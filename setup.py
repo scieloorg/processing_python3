@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'thriftpy2>=0.5',
+    'thriftpy2==0.5.2',
     'packtools',
     'requests>=2.19.1',
     'lxml>=3.4.4',

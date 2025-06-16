@@ -1,4 +1,4 @@
-thriftpy2
+thriftpy2==0.5.2
 packtools
 requests>=2.11.1,<3
 xylose==1.16.5
