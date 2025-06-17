@@ -2,15 +2,15 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'thriftpy2==0.5.2',
+    'thriftpy==0.3.1',
     'packtools',
-    'requests>=2.19.1',
+    'requests==2.11.1',
     'lxml>=3.4.4',
     'doaj_client',
     'scieloh5m5==1.5.4',
-    'xylose>=1.33.1',
-    'articlemetaapi @ file:///home/luciano/projects/articlemetaapi',
-    'citedbyapi @ file:///home/luciano/projects/citedbyapi'
+    'xylose==1.16.5',
+    'articlemetaapi==1.6.15',
+    'citedbyapi==1.3.10'
 ]
 
 tests_require = []
